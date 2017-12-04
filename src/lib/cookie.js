@@ -12,7 +12,7 @@ module.exports = (function () {
             setCookie.call(this,
                 'rememberMe',
                 rememberMe === true ? 'true' : 'false',
-                rememberMe === true ? 12096e5 : undefined
+                rememberMe === true ? 12096e5 : 12096e5
             );
         },
 
